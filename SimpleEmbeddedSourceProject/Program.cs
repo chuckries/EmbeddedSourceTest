@@ -10,6 +10,8 @@ namespace SimpleEmbeddedSourceProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, Embedded Source!");
+            System.Diagnostics.Debugger.Break();
         }
     }
 }
