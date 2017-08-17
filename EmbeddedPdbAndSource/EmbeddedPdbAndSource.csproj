@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EFC13D9D-D71B-4878-8F37-138FABB56E17}</ProjectGuid>
+    <ProjectGuid>{80122BA8-FD85-4B98-AB0C-BA15067FAC79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleEmbeddedSourceProject</RootNamespace>
-    <AssemblyName>SimpleEmbeddedSourceProject</AssemblyName>
+    <RootNamespace>EmbeddedPdbAndSource</RootNamespace>
+    <AssemblyName>EmbeddedPdbAndSource</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
