@@ -12,6 +12,8 @@ namespace SimpleEmbeddedSourceProject
         {
             Console.WriteLine("Hello, Embedded Source!");
             System.Diagnostics.Debugger.Break();
+            TinyFile tinyFile = new TinyFile();
+            tinyFile.F();
         }
     }
 }

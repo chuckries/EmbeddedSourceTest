@@ -1,0 +1,1 @@
+﻿namespace SimpleEmbeddedSourceProject{class TinyFile{public void F(){System.Diagnostics.Debugger.Break();}}}
