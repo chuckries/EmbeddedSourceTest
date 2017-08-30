@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace SimpleEmbeddedSourceProject
 {
-    class Program
+    class LongFileName
     {
-        static void Main(string[] args)
+        public static void Method()
         {
-            Console.WriteLine("Hello, Embedded Source!");
+            Console.WriteLine("Hello from a file with a crazy long name!");
             System.Diagnostics.Debugger.Break();
-            TinyFile tinyFile = new TinyFile();
-            tinyFile.F();
-            LongFileName.Method();
         }
     }
 }

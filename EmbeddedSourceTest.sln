@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26820.0
+VisualStudioVersion = 15.0.26823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEmbeddedSourceProject", "SimpleEmbeddedSourceProject\SimpleEmbeddedSourceProject.csproj", "{EFC13D9D-D71B-4878-8F37-138FABB56E17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedPdbAndSource", "EmbeddedPdbAndSource\EmbeddedPdbAndSource.csproj", "{80122BA8-FD85-4B98-AB0C-BA15067FAC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPDBEmbeddedSource", "WindowsPDBEmbeddedSource\WindowsPDBEmbeddedSource.csproj", "{357D719C-E15B-4990-9F67-DED600022949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,12 @@ Global
 		{80122BA8-FD85-4B98-AB0C-BA15067FAC79}.Release|x64.Build.0 = Release|x64
 		{80122BA8-FD85-4B98-AB0C-BA15067FAC79}.Release|x86.ActiveCfg = Release|x86
 		{80122BA8-FD85-4B98-AB0C-BA15067FAC79}.Release|x86.Build.0 = Release|x86
+		{357D719C-E15B-4990-9F67-DED600022949}.Debug|x64.ActiveCfg = Debug|x64
+		{357D719C-E15B-4990-9F67-DED600022949}.Debug|x64.Build.0 = Debug|x64
+		{357D719C-E15B-4990-9F67-DED600022949}.Debug|x86.ActiveCfg = Debug|x86
+		{357D719C-E15B-4990-9F67-DED600022949}.Debug|x86.Build.0 = Debug|x86
+		{357D719C-E15B-4990-9F67-DED600022949}.Release|x64.ActiveCfg = Release|x64
+		{357D719C-E15B-4990-9F67-DED600022949}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
